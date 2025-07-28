@@ -15,12 +15,7 @@ local ReplicatedFirst = RequireService(game:GetService("ReplicatedFirst"))
 local function DestroyGrabLocalScript()
 if ReplicatedFirst and ReplicatedFirst:FindFirstChild("Client") and ReplicatedFirst.Client:FindFirstChild("GrabLocal") then
 BlockInstance(game.ReplicatedFirst.Client.GrabLocal)
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Bypassed Grab Client!",
-	Text = "Credits: @mr_.seek",
-    Icon = "rbxassetid://98952570395426",
-	Duration = 36000,
-	Button1 = "why"
+
 })
 end
 end
@@ -29,12 +24,7 @@ local function BypassMobileClientAntiCheat()
 if StarterPlayerScripts and StarterPlayerScripts:FindFirstChild("ClientAnticheat") and StarterPlayerScripts.ClientAnticheat:FindFirstChild("AntiMobileExploits") then
 BlockInstance(StarterPlayerScripts.ClientAnticheat.AntiMobileExploits)
 BlockInstance(StarterPlayerScripts.ClientAnticheat)
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Bypassed Mobile Client Anti-Cheat!",
-	Text = "Credits: @mr_.seek",
-    Icon = "rbxassetid://98952570395426",
-	Duration = 36000,
-	Button1 = "e"
+
 })
 end
 end
@@ -55,12 +45,7 @@ Namecall = hookmetamethod(game, "__namecall", function(self, ...)
    end
    return Namecall(self, ...)
 end)
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Bypassed Ban Remotes!",
-	Text = "{ Method: Hookmetamethod, Total Blocked: 4/4 } Credits: @mr_.seek",
-    Icon = "rbxassetid://98952570395426",
-	Duration = 36000,
-	Button1 = "what da sigma"
+
 })
 else
 local AmountOfBlockedRemotes = 0
@@ -80,12 +65,7 @@ if game:GetService("ReplicatedStorage").Events:FindFirstChild("WS2") then
 BlockInstance(game:GetService("ReplicatedStorage").Events["WS2"])
 AmountOfBlockedRemotes = AmountOfBlockedRemotes + 1
 end
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Bypassed Ban Remotes!",
-	Text = "{ Method: Block, Total Blocked: "..AmountOfBlockedRemotes.."/4 } Credits: @mr_.seek",
-    Icon = "rbxassetid://98952570395426",
-	Duration = 36000,
-	Button1 = "what"
+
 })
 end
 DestroyGrabLocalScript()
