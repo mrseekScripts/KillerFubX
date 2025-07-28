@@ -17,7 +17,7 @@ if ReplicatedFirst and ReplicatedFirst:FindFirstChild("Client") and ReplicatedFi
 BlockInstance(game.ReplicatedFirst.Client.GrabLocal)
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Bypassed Grab Client!",
-	Text = "Credits: @Nexer1234",
+	Text = "Credits: @mr_.seek",
     Icon = "rbxassetid://125704683916878",
 	Duration = 36000,
 	Button1 = "Alright!"
@@ -31,7 +31,7 @@ BlockInstance(StarterPlayerScripts.ClientAnticheat.AntiMobileExploits)
 BlockInstance(StarterPlayerScripts.ClientAnticheat)
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Bypassed Mobile Client Anti-Cheat!",
-	Text = "Credits: @Nexer1234",
+	Text = "Credits: @mr_.seek",
     Icon = "rbxassetid://125704683916878",
 	Duration = 36000,
 	Button1 = "Alright!"
@@ -57,7 +57,7 @@ Namecall = hookmetamethod(game, "__namecall", function(self, ...)
 end)
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Bypassed Ban Remotes!",
-	Text = "{ Method: Hookmetamethod, Total Blocked: 4/4 } Credits: @Nexer1234",
+	Text = "{ Method: Hookmetamethod, Total Blocked: 4/4 } Credits: @mr_.seek",
     Icon = "rbxassetid://125704683916878",
 	Duration = 36000,
 	Button1 = "Alright!"
@@ -82,7 +82,7 @@ AmountOfBlockedRemotes = AmountOfBlockedRemotes + 1
 end
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Bypassed Ban Remotes!",
-	Text = "{ Method: Block, Total Blocked: "..AmountOfBlockedRemotes.."/4 } Credits: @Nexer1234",
+	Text = "{ Method: Block, Total Blocked: "..AmountOfBlockedRemotes.."/4 } Credits: @mr_.seek",
     Icon = "rbxassetid://125704683916878",
 	Duration = 36000,
 	Button1 = "Alright!"
@@ -111,7 +111,7 @@ Namecall = hookmetamethod(game, "__namecall", function(self, ...)
 end)
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Bypassed Ban Remotes!",
-	Text = "{ Method: Hookmetamethod, Total Blocked: 5/5 } Credits: @Nexer1234",
+	Text = "{ Method: Hookmetamethod, Total Blocked: 5/5 } Credits: @mr_.seek",
     Icon = "rbxassetid://125704683916878",
 	Duration = 36000,
 	Button1 = "Alright!"
