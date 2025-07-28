@@ -18,9 +18,9 @@ BlockInstance(game.ReplicatedFirst.Client.GrabLocal)
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Bypassed Grab Client!",
 	Text = "Credits: @mr_.seek",
-    Icon = "rbxassetid://125704683916878",
+    Icon = "rbxassetid://98952570395426",
 	Duration = 36000,
-	Button1 = "Alright!"
+	Button1 = "why"
 })
 end
 end
@@ -32,9 +32,9 @@ BlockInstance(StarterPlayerScripts.ClientAnticheat)
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Bypassed Mobile Client Anti-Cheat!",
 	Text = "Credits: @mr_.seek",
-    Icon = "rbxassetid://125704683916878",
+    Icon = "rbxassetid://98952570395426",
 	Duration = 36000,
-	Button1 = "Alright!"
+	Button1 = "e"
 })
 end
 end
@@ -58,9 +58,9 @@ end)
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Bypassed Ban Remotes!",
 	Text = "{ Method: Hookmetamethod, Total Blocked: 4/4 } Credits: @mr_.seek",
-    Icon = "rbxassetid://125704683916878",
+    Icon = "rbxassetid://98952570395426",
 	Duration = 36000,
-	Button1 = "Alright!"
+	Button1 = "what da sigma"
 })
 else
 local AmountOfBlockedRemotes = 0
@@ -83,9 +83,9 @@ end
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Bypassed Ban Remotes!",
 	Text = "{ Method: Block, Total Blocked: "..AmountOfBlockedRemotes.."/4 } Credits: @mr_.seek",
-    Icon = "rbxassetid://125704683916878",
+    Icon = "rbxassetid://98952570395426",
 	Duration = 36000,
-	Button1 = "Alright!"
+	Button1 = "what"
 })
 end
 DestroyGrabLocalScript()
